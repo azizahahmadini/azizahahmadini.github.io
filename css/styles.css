@@ -39,17 +39,7 @@ h1, h2, h3 {
     color: #4E7159;
     font-weight: bold;
 }
-/*
-.navbar-burger {
-    color: #141c3a;
-    cursor: pointer;
-    display: block;
-    height: 3.25rem;
-    position: relative;
-    width: 3.25rem;
-    margin-left: auto;
-}
-*/
+
 .navbar-toggle span {
     background-color: #141c3a;
     display: block;
