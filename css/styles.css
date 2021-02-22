@@ -178,6 +178,8 @@ h1, h2, h3 {
 	flex-grow: 1;
 	margin: 0 auto;
 	position: relative;
+	display: block;
+	float: none;
 }
 
 .section-3 .card-group{
@@ -227,6 +229,7 @@ h1, h2, h3 {
 	margin: 0 auto;
 	position: relative;
 	margin-top: 15rem;
+	text-align: center;
 }
 
 .section-4 .apps{	
@@ -401,7 +404,8 @@ h1, h2, h3 {
 	margin-top: 25px;
 	color:white;
 	padding: 20px;
-	/*background-color: #e8ecf2;*/
+	width: auto;
+	background-color: #CF973A;
 	color: #000;
 }
 
@@ -498,13 +502,23 @@ h1, h2, h3 {
 		max-width: 500px;
 	}
 
+	.section-3 .row-wrap-container{
+		width: 100%;
+		margin: 0 auto;
+		position: relative;
+		display: block;
+		float: none;
+	}
+
 	.section-4 .column.is-12-mobile{
-		/*-webkit-box-flex: 0;
-		flex: none;*/
 		width: 100%;
 		padding: 2rem 1.5rem;
 		text-align: center;
 		margin: 0rem;
+	}
+
+	.section-4 figure figcaption h3.title{
+		font-size: 14px;
 	}
 }
 
