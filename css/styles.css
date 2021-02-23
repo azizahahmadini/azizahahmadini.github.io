@@ -503,22 +503,22 @@ h1, h2, h3 {
 	}
 
 	.section-3 .row-wrap-container{
-		width: 100%;
-		margin: 0 auto;
 		position: relative;
-		display: block;
 		float: none;
 	}
 
 	.section-4 .column.is-12-mobile{
 		width: 100%;
-		padding: 2rem 1.5rem;
+		padding: 2rem;
 		text-align: center;
-		margin: 0rem;
 	}
 
 	.section-4 figure figcaption h3.title{
 		font-size: 14px;
+	}
+
+	.section-4 .image_wrap{		
+		width: 100%;
 	}
 }
 
